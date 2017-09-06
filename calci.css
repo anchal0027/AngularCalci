@@ -1,0 +1,41 @@
+  body 
+      {
+      padding-top: 50px;
+      }
+      .btn
+      {
+      width:100%;
+      }
+      .gap
+      {
+      margin-top: 10px;
+      }
+      .well
+      {
+      background-color: black;
+      }
+      @media(max-width: 568px) {
+      .container
+      {
+      width:100%;
+      height:50%;
+      }
+      }
+      @media(min-width: 569px) and (max-width: 680px) {
+      .container{
+      width:65%;
+      height:50%;
+      }
+      }
+      @media(min-width: 569px) and (max-width: 930px) {
+      .container{
+      width:50%;
+      height:50%;
+      }
+      }
+      @media(min-width: 931px) {
+      .container{
+      width:40%;
+      height:50%;
+      }
+      }
